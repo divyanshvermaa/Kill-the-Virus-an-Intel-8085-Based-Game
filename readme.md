@@ -1,6 +1,6 @@
 # *Kill-the-Virus*
 
-<img src="https://user-images.githubusercontent.com/32619706/149883709-d17ce99c-5617-4dc2-a492-fd3b590a5fdc.png" width=50%>
+<img src="https://user-images.githubusercontent.com/32619706/149883709-d17ce99c-5617-4dc2-a492-fd3b590a5fdc.png">
 
 Designed, fabricated and programmed (in assembly language), a game based on the Intel 8085 microprocessor. EAGLE was used for building the schematic and board layout of the PCB, which was later self-soldered at CEPD, NSIT. Link to the demonstration video: https://www.youtube.com/watch?v=iUQp60EaMDg
 
