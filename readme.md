@@ -20,7 +20,7 @@ Kill-the-Virus is a lucid game-based project employing Intel 8085 microprocessor
 * Memory interfacing of EEPROM and RAM is ensured with the 8085 microprocessor, and a decoder is used for relevant switching between both the memory devices.
 * Capacitors are placed at the Vcc pin of every IC used to reduce noise and implement the debouncing technique.
 * 4 Mhz crystal oscillator is used to get a clock frequency of 2 MHz.
-* 22 pF capacitor is used to provide proper impedance matching between the 8085 and the crystal, as the crystal does not load immediately.
+* 22 pF capacitor is used to provide proper impedance matching between the 8085 and the crystal, as the crystal doesn't immediately load.
 * The 8255 PPI is used in Mode 0, i.e., no 'handshaking' is required.
 
 ## Board Layout
