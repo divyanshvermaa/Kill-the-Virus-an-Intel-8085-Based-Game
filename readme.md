@@ -50,16 +50,18 @@ For hardware testing of the circuit board, the steps followed were as follows:
 
 <img src="https://user-images.githubusercontent.com/32619706/149880834-3e6f9052-f5f6-4145-bf30-d3f576dda6ab.png">
 
-Tools:
+**Tools:**
 * Soldering station and wire
 * Tweezers, cutters, files
 * Multi-meter
 
 <img src=https://m.media-amazon.com/images/I/81OaT3H5DGL.jpg width="300">
 
-Software:
+**Software:**
 * EAGLE CAD
 * Oshon Soft 8085 Simulator IDE
 * EEPROM Programmer  
 
-<img src=https://www.multi-circuit-boards.eu/fileadmin/img/05_Support/leiterplatten-daten/leiterplatte_eagle_logo_big.png>
+<img src=https://www.multi-circuit-boards.eu/fileadmin/img/05_Support/leiterplatten-daten/leiterplatte_eagle_logo_big.png width="300">
+
+
