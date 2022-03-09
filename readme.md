@@ -1,3 +1,4 @@
+
 <div align="right"><i>Year: 2018</i></div>
 <img src="https://user-images.githubusercontent.com/32619706/149883709-d17ce99c-5617-4dc2-a492-fd3b590a5fdc.png">
 Designed, fabricated and programmed (in assembly language), a game based on the Intel 8085 microprocessor. EAGLE was used for building the schematic and board layout of the PCB, which was later self-soldered at CEPD, NSIT. Link to the demonstration video: https://www.youtube.com/watch?v=iUQp60EaMDg
@@ -9,18 +10,18 @@ Kill-the-Virus is a lucid game-based project employing Intel 8085 microprocessor
 
 <img src="https://user-images.githubusercontent.com/32619706/149880580-b8c24fd7-1753-4189-b1a7-b57ae3998e97.png">
 
-* The power supply is provided to the circuit using the mini-USB port.
-* START and RESET button circuits are connected to the microprocessor.
+* Mini-USB port provides the power supply to the circuit through an external +5V power source; an LED is placed alongside to indicate power reception.
+* External START and RESET button circuits are connected to the microprocessor.
 * Five latches are used to latch all the LEDs present in the matrix.
-* Except RST 7.5, all interrupts are grounded, as the RST 7.5 interrupt is employed for the project.
-* Pins of port A of 8255 IC are interfaced with the LCD, which is to be used for displaying the score and the status of the game.
-* Six pins of port B of 8255 IC are interfaced with the six-push button circuit. The outputs of all push buttons are passed through AND gate whose output either enables the interrupt RST 7.5 or not.
-* The pins of Port C of the 8255 IC are used to drive the random number generator designed using the mod-8 counter. The random generator helps in switching on random LEDs in the LED matrix.
-* Memory interfacing of EEPROM and RAM is done with the 8085 microprocessor and a decoder is used for relevant switching between both the memory devices.
-* Capacitors are placed at the Vcc pin of every IC used so as to reduce noise and implement the debouncing technique.
-* 4Mhz crystal oscillator is used to provide a clock frequency of 2MHz. A 22pF capacitor is used to provide proper impedance matching between the 8085 and the crystal as the crystal does not load immediately.
-* The 8255 PPI is being used in Mode 0, i.e. no handshaking is required.
-* The board is supplied by an external +5V power source with the help of a mini-USB port. A power LED incorporated alongside indicates that the circuit is receiving power.
+* Except for RST 7.5, all interrupts are grounded, as it is to be used for the project.
+* Pins of Port A of the 8255 IC are interfaced with the LCD, which is used to display the score and status of the game.
+* Six pins of Port B of 8255 IC are interfaced with the six-push button circuit. Outputs of all push buttons are passed through an AND gate, the output of which further determines whether the interrupt RST 7.5 is enabled or not.
+* The pins of Port C of the 8255 IC are used to drive the random number generator designed using a Mod-8 counter. The random number generator's role is to facilitate switching on random LEDs in the LED matrix.
+* Memory interfacing of EEPROM and RAM is ensured with the 8085 microprocessor, and a decoder is used for relevant switching between both the memory devices.
+* Capacitors are placed at the Vcc pin of every IC used to reduce noise and implement the debouncing technique.
+* 4 Mhz crystal oscillator is used to get a clock frequency of 2 MHz.
+* 22 pF capacitor is used to provide proper impedance matching between the 8085 and the crystal, as the crystal does not load immediately.
+* The 8255 PPI is used in Mode 0, i.e., no 'handshaking' is required.
 
 ## Board Layout
 
@@ -53,6 +54,8 @@ Tools:
 * Soldering station and wire
 * Tweezers, cutters, files
 * Multi-meter
+
+![Tools](https://m.media-amazon.com/images/I/81OaT3H5DGL.jpg =300x300)
 
 Software:
 * EAGLE CAD
